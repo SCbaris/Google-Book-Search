@@ -1,0 +1,27 @@
+.card {
+    background: #18181E;
+    border-radius: 2px;
+    height: 200px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: middle;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  .card > .img {
+    height: 60%;
+    overflow: hidden;
+    text-align: center;
+    background:#18181E;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .card:active {
+    background-color: #DEC79B;
+  }
